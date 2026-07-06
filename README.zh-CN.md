@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+![Build Pyramid Agent 三层结构](assets/agent-pyramid.png)
+
 Build Pyramid Agent 是一个通用的 agent 配置生成说明包，用三层结构设计 AI agent：
 
 - `SOUL.md` 定义 agent 是谁。
@@ -131,6 +133,8 @@ cp AGENTS.md ~/.config/opencode/AGENTS.md
 
 ```text
 build-pyramid-agent/
+├── assets/
+│   └── agent-pyramid.png
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml

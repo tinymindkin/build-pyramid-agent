@@ -2,6 +2,8 @@
 
 [中文说明](README.zh-CN.md)
 
+![Build Pyramid Agent hierarchy](assets/agent-pyramid.png)
+
 Build Pyramid Agent is a portable instruction pack for designing AI agents with a three-layer configuration model:
 
 - `SOUL.md` defines who the agent is.
@@ -131,6 +133,8 @@ Use this fallback pattern:
 
 ```text
 build-pyramid-agent/
+├── assets/
+│   └── agent-pyramid.png
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml

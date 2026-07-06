@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Pyramid Agent"
+  short_description: "Draft portable AI agent config files"
+  default_prompt: "Use $build-pyramid-agent to create AGENTS.md, SOUL.md, and PRINCIPLE.md for a new AI agent."
